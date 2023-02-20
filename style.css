@@ -1,7 +1,9 @@
+
 body {
     background-color: #fce4d4;
     color: #c77948;
 }
+
 #navbar {
     overflow: hidden;
     background-color: #face92;
@@ -36,7 +38,7 @@ body {
 
 .container {
     position: relative;
-    width: 100%;
+    max-width: 100%;
 
 }
 .image {
@@ -140,11 +142,9 @@ span {
 .contact {
     text-align: center; 
     background-color:#facf9268;
-    margin-left: 400px;
-    margin-right: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 5%;
+    border-radius: 50px;
 }
 
 .contact input {
@@ -184,5 +184,5 @@ span {
     background-color: #face92;
     bottom: 0;
     left: 0;
-    width: 100%;
+    max-width: 100%;
 }
